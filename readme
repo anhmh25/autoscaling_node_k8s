@@ -5,7 +5,7 @@ sudo ./setup_ansible_server_1.sh
 ./gen_ssh_key_and_copy_id_2.sh
 #change the root password to all server
 
-sudo ansible-playbook ~/ansible/playbook/kube_deoendencies_1.yml -i ~/ansible/inventory/kube_inventory
+sudo ansible-playbook ~/ansible/playbook/kube_dependencies_1.yml -i ~/ansible/inventory/kube_inventory
 sudo ansible-playbook ~/ansible/playbook/kube_master_2.yml -i ~/ansible/inventory/kube_inventory
 sudo ansible-playbook ~/ansible/playbook/kube_workers_3.yml -i ~/ansible/inventory/kube_inventory
 
