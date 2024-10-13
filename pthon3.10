@@ -1,0 +1,4 @@
+Failed to discover available identity versions when contacting http://192.168.1.100/identity. Attempting to parse version from URL.
+Could not find versioned identity endpoints when attempting to authenticate. Please check that your auth_url is correct. Internal Server Error (HTTP 500)
+++functions-common:oscwrap:2461             return 1
++lib/keystone:create_keystone_accounts
